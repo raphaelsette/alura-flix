@@ -10,10 +10,19 @@ function adicionarFilme () {
     }
 }
 function listarFilmes(urlNovoFilme) {
-    var listaDeFilmes = document.getElementById("lista-de-filmes");
+    arrayFilmes.push(urlNovoFilme);
+
+    elemento = "";
+    for (i=0; i < arrayFilmes.length; i++) {
+        elemento += "<img src=" + arrayFilmes[i] + ">";
+    }
+
+    console.log(arrayFilmes);
+    console.log(elemento);
     
-    var novoFilme = "<img src=" + urlNovoFilme + ">";
-    listaDeFilmes.innerHTML = listaDeFilmes.innerHTML + novoFilme;
+    listaDeFilmes.innerHTML = elemento;
 
     document.getElementById("url-do-novo-filme").value = "";
 }
+var arrayFilmes = [];
+var listaDeFilmes = document.getElementById("lista-de-filmes");
