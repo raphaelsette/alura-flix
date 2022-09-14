@@ -4,22 +4,28 @@
         <meta charset="UTF-8">
         <link rel="stylesheet" href="reset.css">
         <link rel="stylesheet" href="style.css">
+        <link rel="icon" href="alura-logo.svg">
         <script src="script.js" async></script>
+        <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11" async></script>
         <title>Aluraflix</title>
     </head>
     <body>
-        <header>
-            <img src="alura-logo.svg">
-        </header>
         <main>
-            <h1>Qual seu filme favorito ?</h1>
-            <input id="url-do-novo-filme">
-            <button type="button" onclick="adicionarFilme()">Adicionar Filme</button>
-            <h2 id="status-adicionar"></h2>
+            <div id="div-adicionar-filme">
+                <div>
+                    <img id="alura-logo" src="alura.svg" alt="Logo AluraFlix">
+                    <img id="flix-logo"src="flix.png" alt="Logo AluraFlix">
+                </div>
+                <div>
+                    <input class="input-adicionar-filme" id="nome-do-novo-filme" placeholder="Nome do Filme"><br>
+                    <input class="input-adicionar-filme" id="url-do-novo-filme" placeholder="URL da Capa em PNG/JPG"><br>
+                    <button id="button-adicionar-filme" type="button" onclick="adicionarFilme()">Adicionar Filme</button>
+                </div>
+            </div>
             <div id="lista-de-filmes"></div>
         </main>
         <footer>
-            <img src="logo-imersao-aluraflix.svg">
+            <img src="logo-imersao.svg" alt="Logo Imersão DEV">
         </footer>
     </body>
 </html>
