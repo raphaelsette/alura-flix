@@ -46,6 +46,11 @@ main {
     background: #e60914;
     color: #FFFFFF;
 }
+#button-adicionar-filme:hover {
+    cursor: pointer;
+    background: #000000;
+    border: 1px solid #e60914;
+}
 #lista-de-filmes {
     display: flex;
     flex-wrap: wrap;
