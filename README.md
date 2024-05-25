@@ -15,7 +15,7 @@ Development of a page to insert favorite movies using JavaScript, HTML5, and CSS
   
  ## Preview
 
-[https://raphaelsette.github.io/alura-flix/](https://raphaelsette.github.io/alura-flixx/)
+[https://raphaelsette.github.io/alura-flix/](https://raphaelsette.github.io/alura-flix/)
 
 ## References
 
