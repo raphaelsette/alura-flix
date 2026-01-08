@@ -7,7 +7,7 @@
   </div>
   
 # 🎬 Aluraflix
-O Aluraflix é uma aplicação web desenvolvida durante a Imersão Dev da Alura. O projeto permite que o usuário crie seu próprio catálogo temporário de filmes, adicionando o nome e a URL da imagem da capa.
+O projeto permite que o usuário crie seu próprio catálogo temporário de filmes, adicionando o nome e a URL da imagem da capa.
 
 ## 🚀 Funcionalidades
 
